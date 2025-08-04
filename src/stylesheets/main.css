@@ -49,31 +49,31 @@ article p{
     "box7 box8 box9";
     }
 
-    .box1{
+    .One{
         grid-area: box1;
     }
-    .box2{
+    .Two{
         grid-area: box2;
     }
-    .box3{
+    .Three{
         grid-area: box3;
     }
-    .box4{
+    .Four{
         grid-area: box4;
     }
-    .box5{
+    .Five{
         grid-area: box5;
     }
-    .box6{
+    .Six{
         grid-area: box6;
     }
-    .box7{
+    .Seven{
         grid-area: box7;
     }
-    .box8{
+    .Eight{
         grid-area: box8;
     }
-    .box9{
+    .Nine{
         grid-area: box9;
     }
 }
@@ -84,34 +84,41 @@ article p{
         "box4 box5 box6"
         "box7 box8 box9";
         padding: 2rem;
-        
+        font-size: 1.5rem;
         }
     
-        .box1{
+        .One{
             grid-area: box1;
         }
-        .box2{
+        .Two{
             grid-area: box2;
         }
-        .box3{
+        .Three{
             grid-area: box3;
         }
-        .box4{
+        .Four{
             grid-area: box4;
         }
-        .box5{
+        .Five{
             grid-area: box5;
         }
-        .box6{
+        .Six{
             grid-area: box6;
         }
-        .box7{
+        .Seven{
             grid-area: box7;
         }
-        .box8{
+        .Eight{
             grid-area: box8;
         }
-        .box9{
+        .Nine{
             grid-area: box9;
         }
+    .box:hover{
+        background-color: paleturquoise;
+    }
+    article{
+        padding: 2rem;
+        margin: 1rem 20rem;
+    }
 }
